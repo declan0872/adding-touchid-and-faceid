@@ -8,22 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		143C3FEF23638A800097F735 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143C3FEE23638A800097F735 /* AppDelegate.swift */; };
-		143C3FF123638A800097F735 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143C3FF023638A800097F735 /* SceneDelegate.swift */; };
 		143C3FF323638A800097F735 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143C3FF223638A800097F735 /* ViewController.swift */; };
 		143C3FF623638A800097F735 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 143C3FF423638A800097F735 /* Main.storyboard */; };
 		143C3FF823638A820097F735 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 143C3FF723638A820097F735 /* Assets.xcassets */; };
 		143C3FFB23638A820097F735 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 143C3FF923638A820097F735 /* LaunchScreen.storyboard */; };
+		143C40472364ABE80097F735 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143C40462364ABE80097F735 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		143C3FEB23638A800097F735 /* adding-touchid-and-faceid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "adding-touchid-and-faceid.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		143C3FEE23638A800097F735 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		143C3FF023638A800097F735 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		143C3FF223638A800097F735 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		143C3FF523638A800097F735 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		143C3FF723638A820097F735 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		143C3FFA23638A820097F735 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		143C3FFC23638A820097F735 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		143C40462364ABE80097F735 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +57,9 @@
 			isa = PBXGroup;
 			children = (
 				143C3FEE23638A800097F735 /* AppDelegate.swift */,
-				143C3FF023638A800097F735 /* SceneDelegate.swift */,
 				143C3FF223638A800097F735 /* ViewController.swift */,
 				143C3FF423638A800097F735 /* Main.storyboard */,
+				143C40462364ABE80097F735 /* SceneDelegate.swift */,
 				143C3FF723638A820097F735 /* Assets.xcassets */,
 				143C3FF923638A820097F735 /* LaunchScreen.storyboard */,
 				143C3FFC23638A820097F735 /* Info.plist */,
@@ -140,7 +140,7 @@
 			files = (
 				143C3FF323638A800097F735 /* ViewController.swift in Sources */,
 				143C3FEF23638A800097F735 /* AppDelegate.swift in Sources */,
-				143C3FF123638A800097F735 /* SceneDelegate.swift in Sources */,
+				143C40472364ABE80097F735 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +287,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FTZBC7284P;
 				INFOPLIST_FILE = "adding-touchid-and-faceid/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +306,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FTZBC7284P;
 				INFOPLIST_FILE = "adding-touchid-and-faceid/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
